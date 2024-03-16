@@ -644,6 +644,7 @@ require("lazy").setup({
 			local servers = {
 				clangd = {},
 				asm_lsp = {},
+				bashls = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
@@ -699,9 +700,13 @@ require("lazy").setup({
 				"codelldb",
 				"cpptools",
 				"marksman",
-				"asm-lsp",
+				"asm_lsp",
 				"asmfmt",
-				"ltex-ls",
+				"ltex",
+				"bashls",
+				"bash-debug-adapter",
+				"shellcheck",
+				"beautysh",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

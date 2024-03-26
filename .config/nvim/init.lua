@@ -646,6 +646,8 @@ require("lazy").setup({
 				clangd = {},
 				asm_lsp = {},
 				bashls = {},
+				elixirls = {},
+				zls = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
@@ -708,6 +710,9 @@ require("lazy").setup({
 				"bash-debug-adapter",
 				"shellcheck",
 				"beautysh",
+				"elixirls",
+				"trivy",
+				"zls",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

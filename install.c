@@ -33,7 +33,10 @@ int main() {
     strcat(command, file_content);
     system(command);
   }
+
   fclose(ftpr);
+
+  system("stow .");
 
   return 0;
 }

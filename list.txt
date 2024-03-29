@@ -1,3 +1,6 @@
 kitty
 neovim
 floorp
+zoxide
+stow
+nushell

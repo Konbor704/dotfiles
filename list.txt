@@ -4,3 +4,4 @@ floorp
 zoxide
 stow
 nushell
+lazygit

@@ -8,13 +8,13 @@ int main() {
 
   printf("Are those programs that you want to install?\n Enter yes or no:\n");
 
-  char confirm[10];
+  char confirm;
 
-  scanf("%9s", confirm);
-  char no[] = "no";
-  int result = strcmp(confirm, no);
+  scanf("%c", &confirm);
+  char no = 'n';
+  // int result = strcmp(confirm, no);
 
-  if (result == 0) {
+  if (confirm == no) {
     printf("Then modify file list.txt and run script again\n");
     exit(0);
   }
@@ -27,9 +27,9 @@ int main() {
   }
 
   char file_content[100];
+  char command[] = "sudo pacman -S ";
 
   while (fgets(file_content, sizeof(file_content), ftpr)) {
-    char command[] = "sudo pacman -S ";
     strcat(command, file_content);
     system(command);
   }

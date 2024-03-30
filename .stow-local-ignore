@@ -15,6 +15,7 @@ _darcs
 \.gitignore
 /install.c
 /install
+/list.txt
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files

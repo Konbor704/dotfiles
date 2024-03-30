@@ -282,7 +282,7 @@ api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
-api.nvim_create_autocmd("BufEnter", {
+api.nvim_create_autocmd("VimEnter", {
 	desc = "Enables Transparent Background",
 	group = "onenter",
 	command = "TransparentEnable",

@@ -5,3 +5,5 @@ zoxide
 stow
 nushell
 lazygit
+zathura
+starship

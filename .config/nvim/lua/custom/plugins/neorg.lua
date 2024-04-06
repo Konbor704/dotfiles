@@ -6,14 +6,14 @@ return {
 	},
 	{
 		"nvim-neorg/neorg",
-		build = ":Neorg sync-parsers",
 		dependencies = {
-			{ "nvim-lua/plenary.nvim" },
-			{ "vhyrro/luarocks.nvim" },
-			{ "nvim-neorg/neorg-telescope" },
-			{ "laher/neorg-exec" },
-			{ "jbyuki/nabla.nvim" },
+			"luarocks.nvim",
+			"nvim-lua/plenary.nvim",
+			"nvim-neorg/neorg-telescope",
+			"laher/neorg-exec",
+			"jbyuki/nabla.nvim",
 		},
+		-- put any other flags you wanted to pass to lazy here!
 		config = function()
 			require("neorg").setup({
 				load = {

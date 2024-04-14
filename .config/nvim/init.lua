@@ -288,18 +288,18 @@ api.nvim_create_autocmd("VimEnter", {
 	command = "TransparentEnable",
 })
 
-api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
-	group = "onenter",
-	pattern = "*.norg",
-	callback = function()
-		require("nabla").enable_virt()
-	end,
-})
+-- api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
+-- 	group = "onenter",
+-- 	pattern = "*.norg",
+-- 	callback = function()
+-- 		require("nabla").enable_virt()
+-- 	end,
+-- })
 
 api.nvim_create_autocmd("BufWinEnter", {
 	pattern = { "*.norg", "*.md" },
 	callback = function()
-		vim.opt.textwidth = 80
+		vim.opt.textwidth = 110
 		vim.opt.colorcolumn = "+1"
 	end,
 })
@@ -654,6 +654,7 @@ require("lazy").setup({
 				elixirls = {},
 				zls = {},
 				ols = {},
+				wgsl_analyzer = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
@@ -719,6 +720,7 @@ require("lazy").setup({
 				"elixirls",
 				"trivy",
 				"zls",
+				"wgsl_analyzer",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
@@ -993,6 +995,16 @@ require("lazy").setup({
 
 local theme = require("last-color").recall() or "kanagawa"
 vim.cmd(("colorscheme %s"):format(theme))
+
+require("aerial").setup({
+	-- optionally use on_attach to set keymaps when aerial has attached to a buffer
+	on_attach = function(bufnr)
+		-- Jump forwards/backwards with '{' and '}'
+		-- vim.keymap.set("n", "<leader>{", "<cmd>AerialPrev<CR>", { buffer = bufnr })
+		-- vim.keymap.set("n", "<leader>}", "<cmd>AerialNext<CR>", { buffer = bufnr })
+		vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+	end,
+})
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

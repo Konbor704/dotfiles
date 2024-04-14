@@ -1,10 +1,12 @@
 return {
-  -- A heavily modified fork of rust-tools
-  "mrcjkb/rustaceanvim",
-  version = "^3", -- Recommended
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "mfussenegger/nvim-dap",
-  },
-  ft = { "rust" },
+	-- A heavily modified fork of rust-tools
+	"mrcjkb/rustaceanvim",
+	dependencies = {
+		"nvim-lua/plenary.nvim",
+		"mfussenegger/nvim-dap",
+	},
+	init = function()
+		vim.g.rustaceanvim = {}
+	end,
+	ft = { "rust" },
 }

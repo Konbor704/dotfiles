@@ -4,7 +4,7 @@ return {
 		opts = {
 			window = {
 				backdrop = 1,
-				width = 85,
+				width = 120,
 			},
 			plugins = {
 				options = {

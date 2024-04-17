@@ -655,6 +655,7 @@ require("lazy").setup({
 				zls = {},
 				ols = {},
 				wgsl_analyzer = {},
+				lemminx = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},

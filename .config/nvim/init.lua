@@ -208,8 +208,8 @@ vim.keymap.set("n", "<leader>t", ":Telescope colorscheme<CR>", { desc = "Themes"
 vim.keymap.set("n", "<leader><F5>", vim.cmd.UndotreeToggle, { desc = "Undotree Toggle" })
 
 -- Norg modules
-vim.keymap.set("n", "<localleader>x", ":Neorg exec cursor<CR>", { silent = true, desc = { "Exec Cursor" } }) -- just this block or blocks within heading section
-vim.keymap.set("n", "<localleader>X", ":Neorg exec current-file<CR>", { silent = true, desc = { "Exec file" } }) -- whole file
+vim.keymap.set("n", "<localleader>x", ":Neorg exec cursor<CR>", { silent = true, desc = "Exec Cursor" }) -- just this block or blocks within heading section
+vim.keymap.set("n", "<localleader>X", ":Neorg exec current-file<CR>", { silent = true, desc = "Exec file" }) -- whole file
 
 -- Trouble
 vim.keymap.set("n", "<leader>xx", function()

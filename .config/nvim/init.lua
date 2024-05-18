@@ -181,6 +181,9 @@ vim.opt.conceallevel = 2
 vim.opt.hlsearch = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
+-- HACK: Vim deprecate message disable
+vim.deprecate = function() end
+
 -- For Image.nvim
 
 package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?/init.lua;"
@@ -997,6 +1000,7 @@ require("lazy").setup({
 local theme = require("last-color").recall() or "kanagawa"
 vim.cmd(("colorscheme %s"):format(theme))
 
+-- Aerial Setup
 require("aerial").setup({
 	-- optionally use on_attach to set keymaps when aerial has attached to a buffer
 	on_attach = function(bufnr)
@@ -1006,6 +1010,8 @@ require("aerial").setup({
 		vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
 	end,
 })
+
+vim.api.nvim_create_user_command("Calculate", 'lua require("calculator").calculate()', { ["range"] = 1, ["nargs"] = 0 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

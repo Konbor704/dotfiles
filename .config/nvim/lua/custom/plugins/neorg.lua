@@ -52,6 +52,7 @@ return {
 					["external.exec"] = {},
 					["core.summary"] = {},
 					["core.pivot"] = {},
+					["core.export"] = {},
 					["core.itero"] = {},
 					["core.promo"] = {},
 					["core.esupports.indent"] = {
@@ -73,8 +74,8 @@ return {
 					["core.highlights"] = {},
 					["core.neorgcmd"] = {},
 					-- FIX: Wait for 0.10
-					-- ["core.integrations.image"] = {},
-					-- ["core.latex.renderer"] = {},
+					["core.integrations.image"] = {},
+					["core.latex.renderer"] = {},
 				},
 			})
 		end,

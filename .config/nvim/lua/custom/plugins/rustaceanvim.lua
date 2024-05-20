@@ -6,7 +6,15 @@ return {
 		"mfussenegger/nvim-dap",
 	},
 	init = function()
-		vim.g.rustaceanvim = {}
+		vim.g.rustaceanvim = {
+			server = {
+				on_attach = function(client, bufnr)
+					vim.keymap.set("n", "<leader>h", function()
+						vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+					end)
+				end,
+			},
+		}
 	end,
 	ft = { "rust" },
 }

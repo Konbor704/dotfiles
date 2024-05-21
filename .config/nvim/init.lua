@@ -676,6 +676,7 @@ require("lazy").setup({
 					-- capabilities = {},
 					settings = {
 						Lua = {
+							hint = { enable = true },
 							runtime = { version = "LuaJIT" },
 							workspace = {
 								checkThirdParty = false,
@@ -691,6 +692,7 @@ require("lazy").setup({
 							completion = {
 								callSnippet = "Replace",
 							},
+
 							-- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
 							-- diagnostics = { disable = { 'missing-fields' } },
 						},
@@ -1012,6 +1014,11 @@ require("aerial").setup({
 })
 
 vim.api.nvim_create_user_command("Calculate", 'lua require("calculator").calculate()', { ["range"] = 1, ["nargs"] = 0 })
+
+--InlayHints
+vim.keymap.set("n", "<leader>h", function()
+	vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+end, { silent = true, desc = "Inlay Hints" })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

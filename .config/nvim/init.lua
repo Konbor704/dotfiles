@@ -186,15 +186,15 @@ vim.deprecate = function() end
 
 -- For Image.nvim
 
-package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?/init.lua;"
-package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua;"
-
-local ok, err = pcall(require, "magick")
-
-if ok then
-else
-	print("that failed")
-end
+-- package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?/init.lua;"
+-- package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua;"
+--
+-- local ok, err = pcall(require, "magick")
+--
+-- if ok then
+-- else
+-- 	print("that failed")
+-- end
 
 -- Diagnostic keymaps
 vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Go to previous [D]iagnostic message" })
@@ -659,6 +659,13 @@ require("lazy").setup({
 				ols = {},
 				wgsl_analyzer = {},
 				lemminx = {},
+				cssls = {
+					settings = {
+						scss = {
+							hint = { enable = true },
+						},
+					},
+				},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
@@ -868,6 +875,7 @@ require("lazy").setup({
 					{ name = "crates" },
 					{ name = "pandoc_references" },
 					{ name = "obsidian" },
+					{ name = "codeium" },
 					{ name = "neorg" },
 					{ name = "nvim_lsp_signature_help" },
 					{

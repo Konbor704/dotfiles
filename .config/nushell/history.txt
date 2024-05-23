@@ -1,0 +1,437 @@
+clear
+e
+exit
+e
+exit
+clear
+vi
+cd
+z
+$nu.env-path
+clear
+e
+$nu.conf-path
+$nu.config-path
+clear
+sudo pacman -S zoxide
+clear
+exit
+$env.shell
+$env
+clear
+c
+cc
+garuda-update 
+c
+sudo pacman -S nvm
+nvm 
+fish
+c
+ls
+paru -S nvm
+source /usr/share/nvm/init-nvm.sh
+fish
+c
+npm 
+sudo pacman -S npm
+npm
+c
+nvm
+vi
+c
+cd dotfiles/
+ls
+vi 
+reboot 
+garuda-update 
+c
+sudo pacman -Syu imagemagick
+sudo pacman -S luarocks
+luarocks inatall magick
+luarocks install magick
+sudo pacman -S lua
+luarocks install magick
+sudo luarocks install magick
+sudo pacman -R luarocks
+paru luarocks
+sudo luarocks install magick
+sudo luarocks install magick --check-lua-version
+sudo luarocks install --check-lua-version magick
+luarocks install --check-lua-version magick
+luarocks install --check-lua-versions magick
+luarocks install --local magick
+sudo pacman -S lua51
+sudo pacman -S lua52
+sudo pacman -S lua53
+luarocks install --check-lua-versions magick
+sudo luarocks install --check-lua-versions magick
+sudo luarocks install magick
+sudo luarocks install magick 5.1
+sudo pacman -S luajit
+sudo luarocks install magick 
+luarocks --lua-version=5.1 install magick
+sudo luarocks --lua-version=5.1 install magick
+c
+vi
+cd dotfiles/
+vi
+ls
+z .config/
+ls
+vi
+clear
+cd
+git clone https://github.com/Konbor704/Neorg.git
+c
+ssh-keygen
+cd .ssh/
+ls
+bat id_ed25519.pub
+cat id_ed25519.pub
+vi id_ed25519.pub
+c
+cd
+c
+git clone https://github.com/Konbor704/Neorg.git
+c
+ssh-keygen
+cd .ssh/
+vi id_ed25519.pub
+cd
+git clone https://github.com/Konbor704/Neorg.git
+exit
+reboot
+vi
+c
+paru github
+c
+cd Neorg/
+ls
+vi
+zi
+z Rust/Age_war/
+ls
+paru nerd-fonts
+fc-cache
+c
+z Rust/Age_war/
+paru nerd-fonts
+fc-cache
+$env.echo
+c
+cd
+z dotfiles/.config/kitty/
+vi
+z dotfiles/.config/kitty/
+cd
+z Rust/Age_war/
+cargo 
+c
+vi
+rustup 
+rustup update
+rustup default nightly
+rustup check
+rustup install rust-analyzer
+rustc install rust-analyzer
+rustup component add rust-analyzer
+c
+vi
+sudo pacman -S mold clang
+c
+ls
+touch rust-toolchain.toml
+vi rust-toolchain.toml
+cargo run
+c
+vi
+c
+cd
+c
+z dotfiles/
+ls
+install.sh
+cd
+mkdir Programming
+touch ex1.sh
+vi ex1.sh
+which bash
+vi
+ls
+rm -rf ex1.sh
+cd Programming/
+touch ex1.sh
+chmod u+x ex1.sh
+./ex1.sh
+c
+chmod u+x ex1.sh
+./ex1.sh
+c
+./ex1.sh
+c
+vi
+z Programming/
+ls
+lsd
+c
+vi
+paru -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus hyprlang hyprcursor
+c
+paru -S hyperland-git
+paru -S hyprland-git
+c
+z Programming/
+vi
+z Programming/
+./ex1.sh
+$USER
+$env.USER
+./ex1.sh
+c
+vi
+c
+z
+z dotfiles/.config/
+cd nvim/
+ls
+vi
+cd lua/custom/plugins/
+ls
+touch plenary.lua
+vi
+cd ../../..
+vi
+c
+cd
+z Programming/
+vi
+c
+nvim -v
+nvim -V1 -v
+c
+paru -R nvim
+paru -R neovim
+paru -R nvim
+sudo pacman -R nvim
+sudo pacman -R neovim
+paru -Q
+paru -R neovim-nightly-bin
+sudo pacman -S neovim
+nvim -v
+c
+vi
+sudo pacman -R neovim
+c
+paru neovim
+c
+garuda-update 
+c
+vi
+sudo pacman -S rg fd ripgrep
+sudo pacman -S ripgrep
+sudo pacman -S fd
+vi
+npm -g neovim
+npm install -g neovim
+sudo npm install -g neovim
+c
+vi
+./ex1.sh
+c
+ping google.com
+ping www.google.com
+z Programming/
+vi
+./ex1.sh
+vi
+./ex1.sh
+c
+vi
+z
+z Rust/Age_war/d
+z Rust/Age_war/
+cargo run
+c
+vi
+c
+ping www.google.com
+c
+ping www.google.com
+c
+exit
+cd .config/hypr/
+ls
+vi hyprland.conf
+cd .config/hypr/
+vi
+git clone https://github.com/elkowar/eww
+cd eww/
+cargo build --release --no-default-features --features=wayland
+sudo pacman -S gtk-layer-shell
+sudo pacman -S libpango libgdk_pixbuf-2
+sudo pacman -S pango gdk-pixbuf2
+sudo pacman -S libdbusmenu-gtk3 
+sudo pacman -S cairo glib2 gcc-libs glibc
+c
+sudo pacman -S gtk3
+cargo build --release --no-default-features --features=wayland
+cd target/release/
+chmod +x eww
+./eww
+./eww daemon
+clear
+cd
+cd .config/
+ls
+mkdir eww
+cd eww/
+ls
+touch eww.yuck
+touch eww.scss
+vi
+cd
+z eww/target/release/
+s
+ls
+./eww daemon
+./eww open powermenu_layout
+z
+z .config/eww/
+vi
+zi
+./eww open powermenu
+zi
+vi
+zi
+./eww open examples/
+./eww open example
+z
+z .config/hypr/
+vi
+c
+cd
+kill eww
+sudo pacman -S btop
+c
+btop
+c
+sudo pacman -S floorp
+vi
+z dotfiles/.config/nvim/
+vi
+cd
+z .config/eww
+;s
+ls
+vi
+z dotfiles/.config/nvim/
+vi
+c
+cd
+c
+sudo pacman -S rofi
+c
+logout
+rboot
+reboot
+sudo pacman -R nextcloud
+sudo paru -R nextcloud
+cd Downloads/
+chmod +x installer.AppImage
+./installer.AppImage
+ls
+c
+exit
+reboot
+ls
+cd dotfiles-versions/
+ls
+cd archive/
+ls
+cd 20240523192906/
+ls
+cd dotfiles/
+ls
+cd ..
+cd backup/
+ls
+cd dotfiles/
+ls
+sudo pacman -S lazygit
+lazygit
+ls
+cd ..
+cd archive/
+cd 20240523192906/
+ls
+cd dotfiles/
+ls
+lazygit
+cd ..
+cd dotfiles/
+cd backup/
+ls
+cd dotfiles/
+ls
+lazygit
+cd ..
+mv dotfiles/ ~/dotfiles/
+cd
+cd dotfiles/
+ls
+cd dotfiles/
+stow .
+cd
+cd .config/
+ls
+vi starship.toml
+unlink vim
+unlink wal
+unlink waybar
+unlink wlogout
+unlink swappy
+unlink starship.toml
+ls
+unlink rofi
+unlink eww
+unlink alacritty
+unlink dunst
+ls
+unlink hypr
+sudo pacman -R hyprland
+c
+cd
+cd dotfiles/
+stow .
+cd dotfiles/
+stow .
+c
+z dotfiles/.config/nvim/
+cd lua/custom/plugins/
+rouch codeium.nvim
+touch codeium.nvim
+vi codeium.nvim
+mv codeium.nvim codeium.lua
+vi
+cd ..
+cd ../..
+vi init.lua
+vi
+garuda-update 
+c
+vi
+cd lua/custom/plugins/
+vi codeium.lua
+c
+cd
+c
+paru -R neovim-nightly-bin
+paru -S neovim-nightly-bin
+vi
+paru -R neovim-nightly-bin
+paru neovim
+vi
+sudo pacman -S language_server_linux_x64
+c
+vi
+z dotfiles/

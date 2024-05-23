@@ -435,3 +435,4 @@ sudo pacman -S language_server_linux_x64
 c
 vi
 z dotfiles/
+lazygit

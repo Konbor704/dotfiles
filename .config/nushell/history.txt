@@ -436,3 +436,134 @@ c
 vi
 z dotfiles/
 lazygit
+cargo install neovide
+c
+vi
+c
+vi
+z dotfiles/.config/nvim/
+cd lua/custom/plugins/
+vi
+garuda-update 
+nvim -v
+sudo pacman -R nvim
+sudo pacman -R neovim
+c
+paru neovim
+c
+vi
+c
+vi
+c
+z Programming/
+./ex1.sh
+c
+vi
+./ex1.sh
+vi
+./ex1.sh
+z dotfiles/.config/kitty/
+ls
+vi
+z dotfiles/.config/kitty/
+vi 
+z Rust/Age_war/
+c
+z
+z dotfiles/.config/kitty/
+vi
+z dotfiles/.config/kitty/
+vi
+paru IosevkaTerm Nerd Font<\n>
+c
+vi
+z dotfiles/.config/kitty/
+vi
+paru symbols nerd font
+c
+z Rust/Age_war/
+cd
+z
+z dotfiles/.config/
+vi
+z
+z Rust/Age_war/
+z
+z dotfiles/.config/
+z kitty/
+vi
+z dotfiles/.config/
+z kitty/
+vi
+z dotfiles/.config/kitty/
+vi
+z dotfiles/.config/kitty/
+vi
+garuda-update 
+z Programming/
+vi
+c
+sudo pacman -S breve
+paru brave
+sudo pacman -S breve
+sudo pacman -S brave
+c
+sudo pacman -R brave
+sudo pacman -R Brave
+sudo pacman -R brave
+sudo pacman -S brave
+sudo pacman -R brave-bin
+c
+sudo pacman -S flatpak
+flatpak install flathub com.brave.Browser
+c
+ps
+ps | sort name
+ps | sort-by name
+sudo nvim /etc/resolv.conf
+dig google.com
+host dnsnowledge.com
+sudo nvim /etc/resolv.conf
+host dnsnowledge.com
+dig google.com
+c
+dig google.com
+host dnsnowledge.com
+sudo pacman -S flatpak-kcm
+flatpak run com.brave.Browser
+z Programming/
+vi
+garuda-update 
+c
+sudo pacman -S hyprpaper
+c
+z dotfiles/
+ls
+cd .config/
+ls
+cd hypr/
+ls
+cd
+cd .config/
+ls
+cd hypr/
+ls
+cd
+z dotfiles/.config/hypr/
+ls
+vi
+pacman -Q
+c
+ls
+touch hyprpaper.conf
+vi
+hyprpaper
+c
+cd ..
+cd kitty/
+ls
+vi kitty.conf
+z dotfiles/.config/hypr/
+vi hyprland.conf
+z dotfiles/.config/hypr/
+vi 

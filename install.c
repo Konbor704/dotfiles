@@ -4,7 +4,7 @@
 
 int main() {
   FILE *ftpr;
-  system("cat list.txt");
+  system("cat list.conf");
 
   printf("Are those programs that you want to install?\n Enter yes or no:\n");
 
@@ -19,7 +19,7 @@ int main() {
     exit(0);
   }
 
-  ftpr = fopen("list.txt", "r");
+  ftpr = fopen("list.conf", "r");
   if (ftpr == NULL) {
     printf("Error opening file that contains list of softwear. Make sure that "
            "it exists.\n");

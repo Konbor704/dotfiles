@@ -205,7 +205,7 @@ vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagn
 -- FIX: Plugins keymaps
 
 -- Colorscheme
-vim.keymap.set("n", "<leader>t", ":Telescope colorscheme<CR>", { desc = "Themes" })
+vim.keymap.set("n", "<leader>tt", ":Telescope colorscheme<CR>", { desc = "Themes" })
 
 -- Undotree
 vim.keymap.set("n", "<leader><F5>", vim.cmd.UndotreeToggle, { desc = "Undotree Toggle" })

@@ -567,3 +567,139 @@ z dotfiles/.config/hypr/
 vi hyprland.conf
 z dotfiles/.config/hypr/
 vi 
+lazygit
+paru wofi
+c
+lazygit
+paru -Ss waybar
+1
+paru -S waybar
+paru waybar
+c
+vi
+reboot
+paru bitwarden
+c
+z dotfiles/.config/hypr/
+ls
+touch keybindings.conf
+vi
+z dotfiles/.config/hypr/
+cd ..
+stow .
+cd .config/hypr/
+ls
+vi
+z dotfiles/.config/hypr/
+vi
+z dotfiles/.config/hypr/
+vi
+z dotfiles/.config/hypr/
+vi
+z
+paru brave
+flatpak uninstall flathub com.brave.Browser
+paru networkmenager
+cd Downloads/
+ls
+chmod +x Cake_Wallet_v4.17.0-x86_64.apk
+./Cake_Wallet_v4.17.0-x86_64.apk
+ls
+chmod u+x Cake_Wallet_v4.17.0-x86_64.apk
+./Cake_Wallet_v4.17.0-x86_64.apk
+z
+z dotfiles/.config/hypr/
+vi 
+vi
+z dotfiles/.config/
+z
+z dotfiles/.config/
+z nvim/
+ls
+vi
+cd ..
+cd hypr/
+vi
+poweroff
+paru cake-wallet
+c
+paru -R cake-wallet-bin
+c
+sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
+c
+z dotfiles/.config/
+ls
+cd ..
+stow .
+c
+z
+c
+paru zathura
+c
+zathura 
+c
+z Programming/
+vi
+date now | date to-timezone "Europe/London"
+z
+z dotfiles/.config/nvim/lua/custom/plugins/
+touch nu-nvim.lua
+vi nu-nvim.lua
+vi
+cd ..
+vi init.lua
+vi
+c
+z
+z Programming/
+ls
+touch ex1.nu
+vi
+z
+z dotfiles/.config/nvim/lua/custom/plugins/
+vi
+z
+z Programming/
+vi
+z 
+z dotfiles/.config/nvim/lua/custom/plugins/
+ls
+rm -rf nu-nvim.lua
+c
+cd ..
+cd  ..
+vi init.lua
+c
+z
+c
+z dotfiles/.config/nvim/lua/custom/plugins/
+touch nu-nvim.lua
+vi
+z Programming/
+vi
+nu ex1.nu
+vi
+nu ex1.nu
+c
+ls
+c
+rm -rf ex1.nu
+ls
+cd 
+z dotfiles/.config/nvim/lua/custom/plugins/
+rm -rf nu-nvim.lua
+vi
+z dotfiles/.config/nvim/
+cd ..
+vi init.lua
+z dotfiles/.config/nvim/lua/custom/plugins/
+cd
+z dotfiles/.config/nvim/lua/custom/plugins/
+ls
+rm -rf codeium.lua
+vi
+z 
+z dotfiles/.config/nvim/
+vi
+cd ..
+q

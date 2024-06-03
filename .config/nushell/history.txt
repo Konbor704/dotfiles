@@ -703,3 +703,273 @@ z dotfiles/.config/nvim/
 vi
 cd ..
 q
+vi
+r
+poweroff
+ping google.com
+c
+which .bashrc
+rg .bashrc
+c
+logpout
+logout
+raboot
+reboot
+find /home .bashrc
+readlink -f .bashrc
+z dotfiles/
+ls
+ls -a
+ls -l
+cd .config/
+ls
+cd ..
+c
+cd
+z Programming/
+ls
+vi ex1.sh
+chmod 755 ex1.sh
+ls
+ls -l
+vi
+./ex1.sh
+paru ansible
+c
+touch passf.txt
+vi
+paru clamav
+c
+paru bleachbit
+c
+paru monero
+c
+paru cryptomator
+c
+z Programming/
+ls
+cd 
+fresh clam
+clam
+sudo pacman -S clamav
+c
+fresh clam
+clem fresh
+c
+sudo pacman -S dnsutils
+c
+dig http://www.google.ca
+garuda-update 
+c
+rustup
+rustup update
+c
+config
+config nu
+config nu\
+config nu
+config nu --default 
+config nu --default > nuconfigd.txt
+c
+config nu --default | save config.nu
+ls
+mv config.nu ~/dotfiles/.config/nushell/config.nu
+cd dotfiles/
+cd .config/
+cd nushell/
+vi
+c
+z dotfiles/.config/nushell/
+vi
+c
+save -h
+flatpak install flathub com.vscodium.codium
+z Programming/
+ls
+chmod 755 ex1.nu
+ls
+./ex1.nu
+flatpak uninstall flathub com.vscodium.codium
+c
+z Programming/
+vi
+./ex1.sh
+vi
+./ex1.sh
+vi
+./ex1.sh
+c
+vi
+./ex1.sh
+bat ex1.nu
+cargo uninstall bat
+cargo install bat
+./ex1.sh
+man pacman
+man pacman -Q
+man pacman --query
+c
+vi
+./ex1.sh
+pacman -Q
+pacman -Qs
+pacman -Qn
+vi
+./ex1.sh
+vi
+./ex1.nu
+ls
+vi
+c
+z
+z dotfiles/.config/nvim/
+vi init.lua
+vi
+z
+z Programming/
+vi
+z
+z dotfiles/.config/nvim/
+vi init.lua
+z
+z Programming/
+vi 
+z Programming/
+vi
+date
+date now | date to-timezone "Europe/London"
+date humanize
+date humanize | date to-timezone "Europe/London"
+c
+vi
+mv ex1.sh pkg_control.sh
+ls
+vi
+./pkg_control.sh
+vi
+ls
+rm -rf test.txt
+c
+vi
+./pkg_control.sh
+vi
+./pkg_control.sh
+date --help
+c
+vi
+./pkg_control.sh
+vi
+./pkg_control.sh
+vi
+./pkg_control.sh
+vi
+./pkg_control.sh
+bat pkg_list.txt
+bat logs_pkg_control.txt
+c
+vi
+./pkg_control.sh
+vi
+./pkg_control.sh
+c
+z Programming/
+ls
+touch updating.sh
+vi updating.sh
+mv updating.sh pkg_install.sh
+vi
+z Programming/
+vi
+ls
+chmod 755 pkg_install.sh
+./pkg_install.sh
+c
+vi
+./pkg_install.sh
+vi
+./pkg_control.sh
+bat pkg_list.txt
+c
+pacman -Qe
+pacman -Qm
+pacman -S expac
+sudo pacman -S expac
+c
+expac -s "%-30n" regex
+expac -s "%-30n" 
+pacman -Qm
+pacman -Qe
+expec -h
+expac -h
+vi
+pacman -Qe
+vi
+./pkg_control.sh
+vi
+expac -Qe "%-30n"
+expac -Q "%-30n"
+paru -Qe
+c
+vi
+z
+z dotfiles/.config/nvim/
+vi init.lua
+z Programming/
+vi
+garuda-update 
+c
+garuda-update 
+garuda-update -y
+garuda-update 
+z dotfiles/.config/nvim/
+cd lua/custom/plugins/
+touch lazydev.lua
+vi lazydev.lua
+vi
+cd ..
+vi init.lua
+vi
+v
+z dotfiles/.config/nvim/
+vi init.lua
+vi
+z
+z Rust/Age_war/
+vi
+z 
+z dotfiles/.config/nvim/
+vi init.lua
+vi
+paru blesh-git
+c
+ble
+vi .bashrc
+cd dotfiles/
+ls
+cd .config/
+ls
+cd ..
+ya
+cd dotfiles/
+ls
+vi .bashrc
+c
+cd 
+ya
+cd
+cd dotfiles/
+cd .config/
+mkdir blesh
+cd blesh
+touch init.sh
+vi init.sh
+cd
+vi
+blesh
+echo
+c
+bash
+c
+bash
+c
+z dotfiles/

@@ -1042,3 +1042,28 @@ lazygit
 cd
 gh auth login
 cd dotfiles/
+lazygit
+c
+cd dotfiles/
+ls
+git branch
+git branch kick_start_change
+git switch kick_start_change
+ls
+cd .config/
+ls
+cd nushell/
+cd ..
+cd nvim/
+ls
+touch options.lua
+touch keymaps.lua
+vi
+vi init.lua
+vi
+c
+vi
+cd dotfiles/
+git mege
+git merge
+lazygit

@@ -973,3 +973,5 @@ c
 bash
 c
 z dotfiles/
+lazygit
+c

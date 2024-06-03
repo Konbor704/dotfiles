@@ -1067,3 +1067,9 @@ cd dotfiles/
 git mege
 git merge
 lazygit
+ls
+cd .config/nvi
+cd .config/nvim/
+ls
+git branch
+git switch main

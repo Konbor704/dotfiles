@@ -1073,3 +1073,5 @@ cd .config/nvim/
 ls
 git branch
 git switch main
+lazygit 
+git switch main

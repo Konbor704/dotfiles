@@ -1038,3 +1038,7 @@ gh auth login
 c
 cd dotfiles/
 ls
+lazygit
+cd
+gh auth login
+cd dotfiles/

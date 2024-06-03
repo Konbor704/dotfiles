@@ -975,3 +975,66 @@ c
 z dotfiles/
 lazygit
 c
+bash
+c
+z dotfiles/
+ls
+vi .bashrc
+:wq
+c
+cd
+bash
+c
+gh auth login
+bash
+c
+ls
+cd dotfiles/
+stow .
+ls
+cd ..
+ls
+unlink .bashrc
+cd dotfiles/
+stow .
+c
+cd
+c
+bash
+c
+cd dotfiles/
+cd .config/blesh/
+ls
+mv init.sh ~/dotfiles/.blesh
+cd
+c
+cd dotfiles/
+stow .
+c
+cd
+ls
+cd .config/
+ls
+unlink blesh/
+ls
+cd
+c
+bash
+c
+bash
+c
+ls
+c
+paru -R blesh-git
+c
+bash
+c
+bash
+c
+paru gh
+paru github-cli
+c
+gh auth login
+c
+cd dotfiles/
+ls

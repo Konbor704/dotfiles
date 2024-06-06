@@ -16,5 +16,5 @@ return {
 			},
 		}
 	end,
-	ft = { "rust" },
+	ft = { "rust", "*.ers" },
 }

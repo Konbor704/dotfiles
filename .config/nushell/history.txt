@@ -1075,3 +1075,175 @@ git branch
 git switch main
 lazygit 
 git switch main
+bash
+c
+garuda-update 
+c
+cargo install rust-script
+c
+z Programming/
+ls
+touch test.ers
+vi
+c
+cd 
+z dotfiles/
+;s
+ls
+cd .config/nvim/
+ls
+vi
+z
+vi
+z dotfiles/
+stow .
+z
+vi
+z .config/
+ls
+c
+z
+c
+z dotfiles/
+ls
+vi
+z dotfiles/
+cd nvim/
+ls
+ya
+cd ..
+stow .
+vi
+cd
+vi
+z Programming/
+vi
+rust-script test.ers
+z 
+z dotfiles/
+cd .config/nvim/
+vi
+z
+z Programming/
+vi
+touch test2.rs
+vi test2.rs
+rust-script test2.rs
+vi test2.rs
+rust-script test2.rs
+vi
+rust-script test2.rs
+vi
+rust-script test2.rs
+vi
+rust-script test2.rs
+vi
+cargo run test2.rs
+c
+ya
+z Rust/
+ls
+cargo new twp
+cd twp/
+cargo add bevy bevy_inpector_egui
+cargo add bevy
+rustup update
+c
+cargo add bevy
+c
+cargo run
+c
+vi
+paru emacs
+c
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+doom sync
+z dotfiles/.config/nushell/
+ls
+vi
+doom sync
+bash
+c
+z dotfiles/.config/nushell/
+vi
+doom sync
+z dotfiles/.config/nushell/
+vi
+doom sync
+nu env
+env 
+c
+z dotfiles/.config/nushell/
+vi
+doom sync
+z dotfiles/.config/nushell/
+vi
+z dotfiles/.config/nushell/
+vi
+z dotfiles/.config/nushell/
+vi
+z dotfiles/.config/nushell/
+vi
+doom sync
+c
+emacs
+doom sync
+z dotfiles/.config/nvim
+vi
+cd lua/custom/plugins/
+touch nushell.lua
+vi nushell.lua
+vi
+c
+rm -rf nushell.lua
+c
+paru vscode
+c
+z Programming/
+ls
+code .
+c
+vi
+cargo install scriptisto
+c
+z Programming/
+ls
+scriptisto new | less
+scriptisto new rust > test3.rs
+scriptisto new | less
+scriptisto new --help
+scriptisto new | less
+scriptisto new rust | tee test2.rs
+scriptisto new rust 
+scriptisto new rust | save test2.rs
+ls
+rm -rf test2.rs
+scriptisto new rust | save test2.rs
+ls
+vi test2.rs
+./test2.rs --input 10
+chmod +x test2.rs
+./test2.rs --input 10
+c
+z Programming/
+ls
+vi 
+garuda-update 
+nvidia-smi
+c
+c
+nvidia-smi
+c
+paru -S kwin-explicit-sync
+c
+nvidia-smi
+c
+reboot
+nvidia-smi
+c
+nvidia-smi
+cd dotfiles/
+ls
+bash 
+c

@@ -10,42 +10,11 @@ vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagn
 vim.keymap.set("n", "<leader>tt", ":Telescope colorscheme<CR>", { desc = "Themes" })
 
 -- Undotree
-vim.keymap.set("n", "<leader><F5>", vim.cmd.UndotreeToggle, { desc = "Undotree Toggle" })
+-- vim.keymap.set("n", "<leader>tu", vim.cmd.UndotreeToggle, { desc = "Undotree Toggle" })
 
 -- Norg modules
-vim.keymap.set("n", "<localleader>x", ":Neorg exec cursor<CR>", { silent = true, desc = "Exec Cursor" }) -- just this block or blocks within heading section
-vim.keymap.set("n", "<localleader>X", ":Neorg exec current-file<CR>", { silent = true, desc = "Exec file" }) -- whole file
-
--- Trouble
-vim.keymap.set("n", "<leader>xx", function()
-	require("trouble").toggle()
-end, { desc = "Trouble toggle" })
-
-vim.keymap.set("n", "<leader>xw", function()
-	require("trouble").toggle("workspace_diagnostics")
-end, { desc = "Trouble work_diagnostics" })
-
-vim.keymap.set("n", "<leader>xd", function()
-	require("trouble").toggle("document_diagnostics")
-end, { desc = "Trouble doc_diagnostics" })
-
-vim.keymap.set("n", "<leader>xq", function()
-	require("trouble").toggle("quickfix")
-end, { desc = "Quickfix" })
-
-vim.keymap.set("n", "<leader>xl", function()
-	require("trouble").toggle("loclist")
-end, { desc = "LocalList" })
-
-vim.keymap.set("n", "<leader>xr", function()
-	require("trouble").toggle("lsp_references")
-end, { desc = "Lsp references" })
-
--- Zen-mode
-vim.keymap.set("n", "<leader>zz", ":ZenMode<CR>", { desc = "Zen-mode" })
-
--- Terminal
-vim.keymap.set("n", "<F6>", ":ToggleTerm<CR>", { desc = "Toggle Terminal" })
+-- vim.keymap.set("n", "<localleader>x", ":Neorg exec cursor<CR>", { silent = true, desc = "Exec Cursor" }) -- just this block or blocks within heading section
+-- vim.keymap.set("n", "<localleader>X", ":Neorg exec current-file<CR>", { silent = true, desc = "Exec file" }) -- whole file
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -70,6 +39,10 @@ vim.keymap.set("n", "<C-l>", "<C-w><C-l>", { desc = "Move focus to the right win
 vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower window" })
 vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
+-- Mini Files
+vim.keymap.set("n", "-", function()
+	MiniFiles.open()
+end, { desc = "Mini Files" })
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 

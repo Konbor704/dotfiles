@@ -1247,3 +1247,757 @@ cd dotfiles/
 ls
 bash 
 c
+cd d
+cargo install zoxide
+rustup update
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+e
+exit
+cargo install zoxide
+bash
+exit
+cd dotfiles/
+stow .
+exit
+cargo install zoxide
+bash
+sudo pacman -S zoxide
+exit
+cd dotfiles/
+vi
+paru -S neovim-nightly-bin
+c
+vi
+clear
+z dotfiles/.config/
+z .config/kitty/
+ls
+vi kitty.conf
+sudo pacman -S npm
+npm install latest
+c;ear
+vi
+c
+clear
+ya
+pacman -Sy gnome-browser-connector
+sudo pacman -Sy gnome-browser-connector
+c
+sudo pacman -R nextcloud-desktop
+paru -Qn
+sudo pacman -R nextcloud-client
+c
+paru gnome-tweaks
+reboot
+paru gnome-tweaks
+sudo pacman -S davinci-resolve
+paru davinci-resolve
+garuda-update 
+clear
+cd dotfiles/
+ls
+cd .config/kitty/
+ls
+vi 
+rm -rf node_modules/
+cd
+npm install latest
+c
+cd dotfiles/
+ls
+cd .config/kitty/
+ls
+vi
+c
+ls
+c
+cd .config/
+ls
+cd
+cd dotfiles/
+cd .config/
+ls
+mkdir alacritty
+cd alacritty/
+ls
+touch alacritty.toml
+cd ../..
+stow .
+c
+cd
+z dotfiles/.config/alacritty/
+vi
+c
+z dotfiles/.config/alacritty/
+vi
+c
+z dotfiles/.config/alacritty/
+vo
+z dotfiles/.config/alacritty/d
+z dotfiles/.config/alacritty/
+vi
+c
+paru foot
+clear
+cd dotfiles/
+ls
+cd .config/
+ls
+cd foot
+ls
+vi foot.ini
+man foot.ini
+z dotfiles/.config/foot/
+vi foot.ini
+z dotfiles/.config/foot/
+vi
+clar
+c
+z dotfiles/.config/foot/
+vi
+z dotfiles/.config/foot/
+vo
+vi
+c
+zellji
+clear
+cargo install zellji
+c
+paru zellji
+z dotfiles/.config/
+ls
+cd
+paru zellij
+clear
+c
+ze
+garuda-update 
+c
+fc-cache
+c
+z dotfiles/.config/foot/
+vi init.lua
+ls
+vi foot.ini
+c
+vi
+c
+vi
+z dotfiles/.config/nvim
+cd lua/custom/plugins/
+ls
+vi
+nvim -v
+c
+cd
+z dotfiles/.config/nvim
+vi
+cargo install rg
+cargo install ripgrep
+sudo pacman -S fd
+c
+npm install -g neovim
+sudo npm install -g neovim
+c
+vi
+vi init.luad
+vi init.lua
+vi
+sudo pacman -S codelldb
+paru codelldb
+paru lldb
+c
+ls
+vi
+paru cppdbg
+vi
+paru cppdbg
+sudo pacman -S codelldb
+cargo install codelldb
+paru codelldb
+c
+vi
+c
+z dotfiles/.config/nvim
+vi
+paru gleam
+sudo pacman -S erlang
+c
+vi
+cd
+cd Programming/
+cd Programming
+ls
+mkdir Programming
+cd Programming
+vi
+cd
+z dotfiles/.config/nvim
+vi init.lua
+lutris --list-games
+c
+cd buritto-gw2/
+ls
+cd Burrito_Linux/
+ls
+chmod +x burrito.x86_64
+c
+ls
+./burrito.x86_64
+paru davinci-resolve
+c
+reboot
+z Programming/
+ls
+cd
+paru nerf-fonts
+paru nerd-fonts
+c
+mkdir Rust
+ls
+z Rust
+ls
+c
+cargo new TDG
+cargo new tdg
+cd tdg/
+ls
+cd ..
+ls
+tm -rf TDG/
+rm -rf TDG/
+cd tdg/
+ls
+c
+ls
+cargo add bevy
+c
+rustup update
+c
+vi
+c
+cargo add bevy
+c
+garuda-update 
+c
+z dotfiles/.config/foot/
+vi
+c
+z dotfiles/.config/
+vi starship.toml
+z dotfiles/.config/
+vi starship.toml
+z dotfiles/.config/
+vi
+c
+z dotfiles/.config/
+vi
+z dotfiles/.config/
+0
+vi starship.toml
+z dotfiles/.config/
+vi starship.toml
+vi
+c
+vi
+c
+ls
+vi
+c
+z
+z Rust/
+ls
+vi tdg/
+z tdg/
+c
+nvidia-smi
+c
+z tdg/
+z Rust/tdg/
+ls
+cargo add bevy_inspector_egui
+c
+vi
+ls
+ya
+ls
+ya
+vi
+cd ..
+vi
+ls
+cd src/
+ls
+mv Tower/ tower/
+mv Enemys/ enemys/
+mv Menu/ menu/
+mv Road/ road/
+cd ..
+vi
+ls
+cd src/
+ls
+cd tower/
+ls
+cd
+z Rust/tdg/
+vi
+ya
+vi
+ya
+cd ..
+vi
+c
+ls
+ya
+cd tdg/
+vi
+cdc
+cd
+z
+c
+z dotfiles/.config/nvim
+ls
+cd lua/custom/plugins/
+ls
+cd ../../..
+vi
+c
+z dotfiles/.config/nvim
+vi
+z
+z Rust/tdg/
+vi
+z
+z dotfiles/.config/nvim
+vi
+z
+z Rust/tdg/
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+:q
+vi
+cargo run
+c
+ze
+c
+z Rust/tdg/
+ls
+cargo run
+vi
+c
+z
+curl -fsSL https://ollama.com/install.sh | sh
+c
+ollama
+ollama sreve
+ollama serve
+c
+ollama run llama3
+c
+z dotfiles/.config/nvim
+vi
+cd lua/custom/plugins/
+touch ollama.lua
+vi ollama.lua
+vi
+c
+cd
+z Rust/tdg/
+vi
+c
+z
+c
+garuda-update 
+z
+z dotfiles/.config/nvim
+vi
+c
+z
+c
+z Programming/
+ls
+touch assembly.asm
+vi
+paru gdb
+c
+gdb -h
+gdb --tui
+c
+ls
+paru nasm
+v
+c
+yasm -f elf64 -o int.o assembly.asm
+yasm -f elf64 -o assembly.asm int.o
+paru nasm
+c
+nasm -f elf64 -o int.o assembly.asm
+vi
+yasm -f elf64 -o int.o assembly.asm
+vi
+yasm -f elf64 -o int.o assembly.asm
+vi
+yasm -f elf64 -o int.o assembly.asm
+ld -o int int.o
+ls
+./int
+c
+vi
+ld -o int int.o
+yasm -f elf64 -o int.o assembly.asm
+ld -o int int.o
+vi
+yasm -f elf64 -o int.o assembly.asm
+vi
+yasm -f elf64 -o int.o assembly.asm
+ld -o int int.o
+./int
+ls
+vi
+nasm -f elf64 -o int.o assembly.asm
+ld -o int int.o
+./int
+ci
+vi
+z Programming/
+vi assembly.asm
+yasm -f elf64 -o int.o assembly.asm
+ld -o int int.o
+./int
+$env.LAST_EXIT_CODE
+./int | complete
+gdb --tui
+gdb help
+c
+paru gdb
+paru insight
+c
+paru ddd
+c
+sudo pacman -S ddd
+paru ddd
+c
+z Programming/
+ls
+vi
+./int | complete
+vi
+c
+fastfetch 
+c
+nefetch
+fastfetch 
+c
+z Rust/tdg/
+ls
+vi
+c
+z
+c
+vi
+paru zig
+c
+zig -v
+zig --help
+c
+paru -R zig-bin
+c
+sudo pacman -Q zig
+c
+paru zig
+c
+paru zig
+c
+zig
+c
+z Programming/
+ls
+mkdir Zig
+cd Zig/
+ls
+zig init learning
+zig
+zig init
+ls
+ls -a
+ya
+mkdir learning
+cd learning/
+zig init
+vi
+c
+paru zig-ls
+paru zig
+c
+z
+c
+z Rust/
+ls
+exercism download --track=rust --exercise=hello-world
+paru exercism
+c
+exercism download --track=rust --exercise=hello-world
+exercism help
+exercism configurate
+exercism configure
+exercism configure --token=9a386140-39a8-45d3-b8a2-42e195b2cfb1
+c
+exercism download --track=rust --exercise=hello-world
+z
+c
+ls
+z exercism/
+ls
+z rust/
+ls
+z hello-world/
+cargo test
+c
+vi
+exercism submit src/lib.rs Cargo.toml
+exercism download --track=rust --exercise=reverse-string
+cd ..
+cd reverse-string/
+ls
+vi
+cargo test
+c
+vi
+exercism submit src/lib.rs Cargo.toml
+garuda-update 
+c
+sudo pacman -S gtk4 base-devel
+c
+rustup update
+c
+z Rust/
+ls
+cargo new calc
+cdc calc
+cd calc
+c
+cargo add druid
+c
+vi
+z
+z dotfiles/.config/nvim
+vi
+z
+z Rust/
+vi
+z calc/
+ls
+vi
+z Rust/
+ls
+vi calc/
+c
+z calc/
+cargo run
+c
+vi
+z 
+z dotfiles/.config/nvim
+vi init.lua
+vi
+z
+z Rust/
+z calc/
+vi
+ls
+cd src/
+ls
+rm ui.slint
+ls
+cd ..
+vi
+c
+cargo install slint-lsp
+z
+z dotfiles/.config/nvim/lua/custom/plugins/
+touch slint-nvim.lua
+vi
+vo
+vi
+c
+z
+z Rust/calc/
+vi
+z
+z dotfiles/.config/nvim/
+vi init.lua
+vi
+z Rust/calc/
+vi
+c
+ping google.com
+c
+garuda-update 
+c
+z Rust/tdg/
+ls
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+garuda-update 
+c
+z Rust/tdg/
+vi
+c
+z
+c
+z dotfiles/.config/nvim/
+vi
+ls
+z lua/custom/plugins/
+ls
+vi aerial.lua
+z ..
+z lua/custom/plugins/
+vi
+vi
+zellij 
+vi
+c
+cd
+c
+z Rust/tdg/
+cargo run
+vi
+cargo run
+c
+cargo run
+vi
+z Rust/tdg/
+vi
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+code .
+paru code
+c
+paru vscodium
+c
+code .
+paru -R vscodium
+paru vscode
+c
+code
+paru -R vscode
+paru -R code
+c
+garuda-update 
+c
+z Rust/tdg/
+vi
+ls
+mkdir assets
+cd assets/
+mkdir fonts
+ls
+cd fonts/
+ls
+cd ../..
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+vi
+c
+zellij 
+garuda-update 
+c
+z Rust/tdg/
+vi
+ze
+z Rust/tdg/
+cargo run
+c
+vi
+ze
+garuda-update 
+c
+z Rust/tdg/
+vi
+ze
+paru asciiquarium
+c
+asciiquarium 
+c
+z Rust/
+ls
+z calc/
+ls
+cat Cargo.toml
+c
+cd ..
+cd tdg/
+ls
+vi
+ze
+z dotfiles/.config/nvim/
+cd ..
+lazygit 
+paru lazygit
+c
+lazygit 
+git commit
+git commit -m "idk"
+c
+git push
+c
+paru github-cli
+cx
+c
+gh auth login
+c
+paru -R firedragon
+gh auth login
+c
+lazygit 
+git config
+git config --global
+lazygit 
+git config --global user.name "Konbor704"
+lazygit 
+git config --global user.email "konbor12@gmail.com"

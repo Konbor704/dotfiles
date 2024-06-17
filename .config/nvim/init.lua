@@ -228,7 +228,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("keymaps")
 require("options")
-
 -- NOTE: Here is where you install your plugins.
 require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
@@ -563,6 +562,9 @@ require("lazy").setup({
 				bashls = {},
 				elixirls = {},
 				zls = {},
+				slint_lsp = {
+					filetypes = { "*.rs" },
+				},
 				ols = {},
 				wgsl_analyzer = {},
 				lemminx = {},
@@ -596,12 +598,12 @@ require("lazy").setup({
 								checkThirdParty = false,
 								-- Tells lua_ls where to find all the Lua files that you have loaded
 								-- for your neovim configuration.
-								library = {
-									"${3rd}/luv/library",
-									unpack(vim.api.nvim_get_runtime_file("", true)),
-								},
+								-- library = {
+								-- 	"${3rd}/luv/library",
+								-- 	unpack(vim.api.nvim_get_runtime_file("", true)),
+								-- },
 								-- If lua_ls is really slow on your computer, you can try this instead:
-								-- library = { vim.env.VIMRUNTIME },
+								library = { vim.env.VIMRUNTIME },
 							},
 							completion = {
 								callSnippet = "Replace",
@@ -839,6 +841,8 @@ require("lazy").setup({
 			-- - sd'   - [S]urround [D]elete [']quotes
 			-- - sr)'  - [S]urround [R]eplace [)] [']
 			require("mini.surround").setup()
+
+			require("mini.files").setup()
 
 			-- Simple and easy statusline.
 			--  You could remove this setup call if you don't like it,

@@ -1,0 +1,7 @@
+[window]
+decorations = "None"
+opacity = 0.2
+startup_mode = "Fullscreen"
+
+[scrolling]
+history = 20000

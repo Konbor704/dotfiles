@@ -10,11 +10,10 @@ return {
 				options = {
 					enabled = true,
 				},
-				kitty = {
-					enabled = false,
-					font = "+4",
-				},
 			},
+			vim.keymap.set("n", "<leader>zz", function()
+				require("zen-mode").toggle()
+			end, { desc = "Zen Mode toggle" }),
 		},
 	},
 }

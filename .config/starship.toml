@@ -1,22 +1,54 @@
 ## FIRST LINE/ROW: Info & Status
 # First param ─┌
+
+format = """
+$username\
+$hostname\
+$directory\
+$sudo\
+$gitstatus\
+$cmd_duration\
+$time\
+$c\
+$rust\
+$python\
+$elixir\
+$package\
+$git_branch\
+$status\
+\n$character\
+"""
+palette = 'gruvbox_dark'
+
+[palettes.gruvbox_dark]
+color_fg0 = '#fbf1c7'
+color_bg1 = '#3c3836'
+color_bg3 = '#665c54'
+color_blue = '#458588'
+color_aqua = '#689d6a'
+color_green = '#98971a'
+color_orange = '#d65d0e'
+color_purple = '#b16286'
+color_red = '#cc241d'
+color_yellow = '#d79921'
+
 [username]
 format = " [╭─$user]($style)@"
 show_always = true
-style_root = "bold red"
-style_user = "bold red"
+style_root = "bold color_yellow"
+style_user = "bold color_yellow"
 
 # Second param
 [hostname]
 disabled = false
 format = "[$hostname]($style) in "
 ssh_only = false
-style = "bold dimmed red"
+style = "bold color_aqua"
 trim_at = "-"
 
 # Third param
 [directory]
-style = "purple"
+style = "color_red"
 truncate_to_repo = true
 truncation_length = 0
 truncation_symbol = "repo: "
@@ -30,50 +62,30 @@ disabled = false
 ahead = "⇡${count}"
 behind = "⇣${count}"
 deleted = "x"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
-style = "white"
+diverged = " ⇕⇡${ahead_count}⇣${behind_count}"
+style = "color_blue"
 
 # Last param in the first line/row
 [cmd_duration]
 disabled = false
-format = "took [$duration]($style)"
+format = "took [$duration]($style) "
 min_time = 1
-
 
 ## SECOND LINE/ROW: Prompt
 # Somethere at the beginning
-[battery]
-charging_symbol = "󰂄 "
-disabled = true
-discharging_symbol = "󱟞 "
-full_symbol = "󰁹 "
 
-[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
-disabled = false
-style = "bold red"
-threshold = 15
-
-[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
-disabled = true
-style = "bold yellow"
-threshold = 50
-
-[[battery.display]]  # "bold green" style when capacity is between 10% and 30%
-disabled = true
-style = "bold green"
-threshold = 80
 
 # Prompt: optional param 1
 [time]
 disabled = true
 format = " 🕙 $time($style)\n"
-style = "bright-white"
+style = "color_purple"
 time_format = "%T"
 
 # Prompt: param 2
 [character]
-error_symbol = " [×](bold red)"
-success_symbol = " [╰─λ](bold red)"
+error_symbol = " [×](bold color_yellow)"
+success_symbol = " [╰─λ](bold color_yellow)"
 
 # SYMBOLS
 [status]
@@ -83,11 +95,14 @@ map_symbol = true
 pipestatus = true
 symbol = "🔴"
 
+[c]
+symbol = " "
+
 [aws]
-symbol = " "
+symbol = "☁️  "
 
 [conda]
-symbol = " "
+symbol = "🅒 "
 
 [dart]
 symbol = " "
@@ -102,31 +117,31 @@ symbol = " "
 symbol = " "
 
 [git_branch]
-symbol = " "
+symbol = " "
 
 [golang]
 symbol = " "
 
 [hg_branch]
-symbol = " "
+symbol = " "
 
 [java]
-symbol = " "
+symbol = "☕ "
 
 [julia]
-symbol = " "
+symbol = "ஃ "
 
 [nim]
-symbol = " "
+symbol = "👑 "
 
 [nix_shell]
 symbol = " "
 
 [nodejs]
-symbol = " "
+symbol = " "
 
 [package]
-symbol = " "
+symbol = "📦 "
 
 [perl]
 symbol = " "
@@ -135,13 +150,40 @@ symbol = " "
 symbol = " "
 
 [python]
-symbol = " "
+symbol = "🐍 "
 
 [ruby]
 symbol = " "
 
 [rust]
-symbol = " "
+symbol = "🦀 "
 
 [swift]
 symbol = "ﯣ "
+
+
+[os]
+disabled = false
+style = "color_green"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Garuda = "󰣇"

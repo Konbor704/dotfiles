@@ -19,6 +19,19 @@ return {
 		-- put any other flags you wanted to pass to lazy here!
 		config = function()
 			require("neorg").setup({
+				vim.keymap.set(
+					"n",
+					"<localleader>x",
+					":Neorg exec cursor<CR>",
+					{ silent = true, desc = "Exec Cursor" }
+				), -- just this block or blocks within heading section
+				vim.keymap.set(
+					"n",
+					"<localleader>X",
+					":Neorg exec current-file<CR>",
+					{ silent = true, desc = "Exec file" }
+				), -- whole file
+
 				load = {
 					["core.dirman.utils"] = {},
 					["core.completion"] = {

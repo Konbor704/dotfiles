@@ -10,3 +10,4 @@
 [[ ${BLE_VERSION-} ]] && ble-attach
 source ~/.local/share/blesh/ble.sh
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"

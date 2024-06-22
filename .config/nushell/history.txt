@@ -2001,3 +2001,47 @@ lazygit
 git config --global user.name "Konbor704"
 lazygit 
 git config --global user.email "konbor12@gmail.com"
+lazygit 
+c
+z Rust/tdg/
+ls
+vi .gitignore
+cd ..
+cd calc/
+cargo run
+vi
+btop
+paru btop
+c
+btop
+fastfetch 
+garuda-update 
+c
+sudo pacman -Syu
+c
+garuda-update 
+c
+rustup update
+c
+z Rust/tdg/
+vi
+c
+btop
+z Rust/tdg/
+vi
+ze
+btop
+garuda-update 
+sudo netstat -tunelp | grep -i kdeconnect
+killall kdeconnectd<\n>mv ~/.config/kdeconnect ~/.config/kdeconnect.bak
+ls
+c
+sudo ufw allow 1714:1764/udp<\n>sudo ufw allow 1714:1764/tcp<\n>sudo ufw reload
+sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect<\n>sudo firewall-cmd --reload
+c
+garuda-update 
+c
+paru -R davinici-resolve
+paru -Qn
+c
+z dotfiles/

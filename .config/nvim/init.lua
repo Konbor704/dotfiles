@@ -216,6 +216,9 @@ if not vim.loop.fs_stat(lazypath) then
 end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
+require("options")
+
+require("keymaps")
 -- [[ Configure and install plugins ]]
 --
 --  To check the current status of your plugins, run
@@ -226,8 +229,6 @@ vim.opt.rtp:prepend(lazypath)
 --  To update plugins, you can run
 --    :Lazy update
 
-require("keymaps")
-require("options")
 -- NOTE: Here is where you install your plugins.
 require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
@@ -395,7 +396,7 @@ require("lazy").setup({
 				-- You can pass additional configuration to telescope to change theme, layout, etc.
 				builtin.current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
 					winblend = 10,
-					previewer = false,
+					previewer = true,
 				}))
 			end, { desc = "[/] Fuzzily search in current buffer" })
 

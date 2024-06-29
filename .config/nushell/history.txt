@@ -2045,3 +2045,84 @@ paru -R davinici-resolve
 paru -Qn
 c
 z dotfiles/
+lazygit 
+c
+vi
+garuda-update 
+raboot
+reboot
+garuda-update 
+sudo pacman -S gameconqueror
+paru pince
+c
+sudo pacman -R gameconqueror
+z Rust/tdg/
+vi
+z Rust/tdg/
+zer
+cargo run
+vi
+ze
+garuda-update 
+ze
+z Rust/tdg/
+ce
+flatpak install flathub info.beyondallreason.bar
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+vi
+lazygit 
+c
+ze
+zram
+garuda-update 
+c
+z Rust/tdg/
+vi
+cargo run
+c
+cargo run
+c
+vi
+ze
+rustup update
+c
+z Rust/tdg/
+c
+vi
+ze
+garuda-update 
+z Rust/tdg/
+vi
+ze
+garuda-update 
+garuda-update d
+garuda-update 
+ping google.com
+garuda-update 
+nvidia-smi
+c
+reboot
+nvidia-smi
+c
+vi
+c
+vi
+z dotfiles/
+z .config/nvim/lua/custom/plugins/
+touch tiny_diagnostic.lua
+vi tiny_diagnostic.lua
+vi
+z ../../..
+vi init.lua
+vi
+vi init.lua
+vi
+c
+vi
+z ..

@@ -95,5 +95,8 @@ vim.opt.conceallevel = 2
 vim.opt.hlsearch = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
--- HACK: Vim deprecate message disable
+-- FIX: Vim deprecate message disable
 vim.deprecate = function() end
+
+-- Tiny diagnostic
+vim.diagnostic.config({ virtual_text = false })

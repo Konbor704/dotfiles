@@ -16,6 +16,7 @@ _darcs
 /install.c
 /install
 /list.txt
+/nvim.bak
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files

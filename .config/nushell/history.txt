@@ -2126,3 +2126,305 @@ vi
 c
 vi
 z ..
+lazygit 
+c
+z
+c
+zi
+vi
+c
+z
+c
+sudo pacman -S go
+c
+go install github.com/dhth/hours@latest
+c
+hours
+z dotfiles/
+vi
+ls
+rm -rf a.aut
+rm -rf list.conf
+ls
+rm -rf install.c
+c
+z
+z Programming/
+ls
+mkdir Go
+z Go/
+script.go
+touch script.go
+vi
+z
+z dotfiles/.config/nvim/
+vi init.lua
+z
+c
+z Programming/Go/
+go -h
+go run script.go
+c
+vi
+go run script.go
+touch test.txt
+vi test.txt
+go run script.go
+ze
+garuda-update 
+c
+reboot
+z Programming/Go/
+ls
+vi
+c
+z
+c
+z dotfiles/.config/nvim/
+vi 
+vi
+z lua/custom/plugins/
+mv transparent.lua transparent.bak
+vi
+z ../../..
+vi \
+z lua/custom/plugins/
+mv transparent.bak transparent.lua
+vi
+z
+z Programming/Go/
+vi
+c
+borkon12
+garuda-update 
+vi
+z dotfiles/.config/nvim/
+vi
+cd ..
+mv ~/dotfiles/.config/nvim{,.bak}
+vi
+rm -rf ~/dotfiles/.config/nvim/
+mv ~/dotfiles/.config/nvim.bak ~/dotfiles/.config/nvim
+mv ~/.local/share/nvim{,.bak}<\n>mv ~/.local/state/nvim{,.bak}<\n>mv ~/.cache/nvim{,.bak}
+fish
+c
+vi
+garuda-update 
+c
+vi
+c
+cargo install atuin
+c
+mkdir ~/.local/share/atuin/
+atuin init nu | save ~/.local/share/atuin/init.nu
+z dotfiles/.config/nushell/
+vi
+c
+atuin register -u konbor -e konbor12@gmail.com
+c
+atuin key
+z
+c
+atuin sync
+atuin sync -f
+ls
+c
+cd bw-linux-2024.6.1/
+ls
+chmod +x bw
+./bw
+bw login
+c
+atuin sync -f
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+atuin login
+atuin key
+c
+atuin s
+atuin sync -f
+cd
+c
+cargo install --git https://github.com/loichyan/nerdfix.git
+c
+atuin sync 
+atuin import auto
+atuin sync 
+atuin login -u konbor
+aruin logout
+atuin logout
+atuin login -u konbor
+c
+atuin sync 
+atuin init nu | save ~/.local/share/atuin/init.nu
+c
+z dotfiles/.config/nushell/
+vi
+c
+atuin sync
+c
+bash
+vi
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+z .config/nvim
+ls
+cd ..
+ls
+rm -rf nvim/
+ls
+git clone https://github.com/LazyVim/starter ~/dotfiles/.config/nvim
+mv ~/dotfiles/.config/nvim{,.bak}<\n>
+mv ~/dotfiles/.config/nvim ~/dotfiles/.config/nvim.bak
+vi
+c
+git clone https://github.com/LazyVim/starter ~/dotfiles/.config/nvim
+vi
+exit
+vi
+z dotfiles/.config/
+ls
+cd ..
+stow .
+vi .stow-local-ignore
+stow .
+cd .config/
+ls
+cd ..
+ls
+cd ..
+cd dotfiles/
+cd nvim/
+cd .config/
+cd nvim/
+ls
+rm -rf .git
+rm -rf .gitignore
+cd ..
+cd nvim.bak/
+ls
+cd ..
+stow .
+cd ..
+z .config/
+;s
+ls
+unlink nvim.bak/
+unlink nvim.bak
+cd
+z dotfiles/
+stow 
+stow .
+vi
+c
+z
+c
+z Programming/
+ls
+touch test.ni
+mv test.ni test.nu
+vi 
+c
+z
+c
+vi
+z Rust/tdg/
+vi
+z 
+z dotfiles/.config/nvim/
+vi
+cd ..
+mv nvim nvim.bak2
+ls
+mv nvim.bak nvim
+garuda-update 
+vi
+z dotfiles/.config/
+ls
+mv nvim nvim.bakself
+z nvim.bak2/
+ls
+vi README.md
+cd ..
+rm -rf nvim.bak2/
+c
+bash
+ls
+c
+vi
+c
+vi
+ya
+ls
+rm -rf .git
+rm -rf .gitignore
+vi
+z dotfiles/.config/nvim/
+vi
+z Programming/
+ls
+z Go/
+go get -u github.com/spf13/cobra@latest
+vi
+c
+ls
+cd ..
+cl
+ls
+mv test.nu script.nu
+vi
+c
+ls
+vi
+c
+z
+z Rust/tdg/
+vi
+z Rust/tdg/
+z
+c
+z Programming/
+vi Go/
+z Go/
+vi
+z dotfiles/.config/nvim/
+ls
+cd lua/
+ls
+cd plugins/
+ls
+touch codesnap.lua
+vi codesnap.lua
+vi
+rustup update
+vi
+touch tiny_diagnostic.lua
+vi tiny_diagnostic.lua
+cd ..
+ls
+cd config/
+ls
+vi options.lua
+vi
+cat options.lua
+cargo install bat
+bat options.lua
+cd ..
+cd plugins/
+vi codesnap.lua
+vi
+ls
+vi codesnap.lua
+vi
+c
+cd
+z Pictures/
+ls
+ya
+z 
+z dotfiles/.config/nvim/
+vi
+cd lua/plugins/
+touch markview.lua
+vi markview.lua
+vi
+cd ../..
+c

@@ -6,6 +6,9 @@
 # https://www.nushell.sh/book/coloring_and_theming.html
 # And here is the theme collection
 # https://github.com/nushell/nu_scripts/tree/main/themes
+
+source ~/.local/share/atuin/init.nu
+
 let dark_theme = {
     # color for nushell primitives
     separator: white
@@ -896,8 +899,10 @@ $env.config = {
 use ~/.cache/starship/init.nu
 source ~/.zoxide.nu
 
+
 alias c = clear
 alias ze = zellij
 alias e = exit
 alias vi = nvim
 alias ls = ls -a
+

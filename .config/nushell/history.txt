@@ -2428,3 +2428,157 @@ vi markview.lua
 vi
 cd ../..
 c
+lazygit 
+c
+z
+c
+z Rust/tdg/
+vi
+cargo run
+z
+c
+z dotfiles/.config/nvim/
+ls 
+cd lua/
+ls
+vi config/
+cd ..
+ls
+vi init.lua
+z
+z Rust/tdg/
+c
+vi
+ze
+c
+z dotfiles/.config/nvim/
+vi init.lua
+ls
+cd ..
+ls
+vi init.lua
+vi
+z
+z Rust/tdg/
+vi
+z 
+c
+z dotfiles/.config/nvim/
+vi
+z Rust/tdg/
+vi
+z
+z dotfiles/.config/nvim/
+vi
+z
+z Rust/tdg/
+vi
+z
+c
+z dotfiles/.config/nvim/
+vi
+cd lua/plugins/
+touch lsp_config.lua
+vi lsp_config.lua
+z
+c
+z Rust/tdg/
+vi
+z
+z dotfiles/.config/nvim/
+vi
+cd lua/plugins/
+touch transparent.lua
+vi transparent.lua
+vi
+ya
+vi
+cd ../../../..
+z nvim 
+vi
+ya
+c
+vi
+cd lua/plugins/
+touch bufferline.lua
+vi bufferline.lua
+vi
+z
+cd Documents/
+touch test.norg
+vi
+touch test.md
+vi test.md
+c
+z Programming/
+z Go/
+go -h
+go mod test
+go mod init test
+ls
+go mod tidy
+ls
+vi go.mod
+rm -rf go go.mod
+ls
+vi script.go
+ls
+cd ..
+ls
+vi script.nu
+vi script.nud
+vi script.nu
+chmod +x script.nu
+./script.nu
+vi
+./script.nu
+vi script.nu
+./script.nu
+vi
+./script.nu
+vi
+cd Go/
+vi script.go
+ls
+rm -rf script.go
+rm -rf test.txt
+c
+mkdir install_script
+cd install_script/
+go mod init install_script
+vi
+ls
+mkdir src
+cd src
+ls
+touch main.go
+vi
+cd ..
+vi
+go run
+mv /src/main.go main.go
+ls
+ya
+go run
+go run main.go
+c
+cd ..
+ls
+touch script.sh
+vi
+chmod +x script.sh
+./script.sh
+c
+vi
+c
+z 
+z Rust/tdg/
+vi
+cargo run
+c
+vi
+ze
+c
+z
+c
+z dotfiles/

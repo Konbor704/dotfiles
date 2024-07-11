@@ -2582,3 +2582,446 @@ c
 z
 c
 z dotfiles/
+lazygit 
+garuda-update 
+c
+z Rust/tdg/
+lazygit 
+ls
+atuin sync
+c
+z dotfiles/
+ks
+ls
+cd .config/
+ls
+cd zellij/
+ks
+ls
+paru lmms
+c
+ls -h
+ls -lh
+ls -l
+c
+touch rust_layout.kdl
+z Rust/tdg/
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+c
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+c
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+c
+z
+z Rust/tdg/
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+z
+z dotfiles/.config/zellij/
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+c
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+ls
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+vi
+zellij action new-tab -l ~/dotfiles/.config/zellij/rust_layout.kdl
+c
+vi
+cd ..
+z nushell/
+vi
+ze
+ze-rust
+c
+exa
+exa -la
+ls
+c
+z Rust/tdg/
+ze-rust
+c
+sudo pacman -S tlrc
+cargo install tlrc
+c
+tldr zoxide
+c
+z dotfiles/.config/foot/
+ls
+vi
+man foot.ini
+vi foot.ini
+z dotfiles/.config/foot/ | vi foot.ini
+c
+z dotfiles/.config/starship.toml
+z dotfiles/.config/
+vi
+c
+z dotfiles/.config/foot/
+ls
+mkdir themes
+cd themes
+touch tokyo_night.ini
+vi
+cd ..
+vi
+z dotfiles/.config/foot/
+vi foot.ini
+c
+z dotfiles/.config
+vi starship.toml
+c
+vi
+c
+z
+c
+vi
+z Rust/
+ls
+cargo new bird
+cd bird/
+cargo add bevy 
+cargo add bevy_rapier2d
+c
+;s
+ls
+ze-rust
+c
+z ..
+z td
+ls
+ze-rust
+c
+z ..
+z bird/
+ze-rust
+z Rust/bird/
+ze-rust
+garuda-update 
+rustup update
+z Rust/bird/
+ls
+ze-rust
+vi
+cargo run
+c
+z
+c
+z Programming/
+ls
+cd go
+z Go/
+ls
+vi install_script/
+c
+z Rust/bird/
+ze-rust
+c
+cargo install cargo-cache
+cargo cache -a
+c
+ze-rust
+c
+z
+c
+vi
+z Rust/bird/
+vi
+paru zed
+paru -S zed-git
+c
+cargo run
+z Rust/bird/
+ze-rust
+rustup component add rustc-codegen-cranelift-preview --toolchain nightly<\n>
+ze-rust
+sudo pacman -S mold clang
+c
+ze-rust
+z Rust/bird/
+:q
+ze-rust
+reboot
+z Rust/bird/
+ze-rust
+c
+garuda-update 
+c
+z Rust/tdg/
+vi
+ze-rust
+z Rust/tdg/
+ze-rust
+garuda-update 
+z dotfiles/.config/nvim/
+vi
+c
+cd ..
+cd foot/
+ls
+vi
+ya
+cd
+c
+z dotfiles/.config/foot/
+vi 
+c
+z Rust/tdg/
+ze
+atuin sync
+atuin sync -f
+atuin login -u konbor
+c
+ze-rust 
+c
+paru irssi
+c
+irssi
+cd .irssi/
+ls
+mkdir scripts
+c
+paru irssi-theme-indent
+c
+z Rust/tdg/
+ze-rust 
+c
+z
+c
+irssi
+perl -v
+c
+vi
+c
+z Rust/tdg/
+ze-rust 
+c
+z
+c
+z dotfiles/.config/nvim/
+ls
+cd lua/plugins/
+ls
+vi
+touch mini.lua
+vi mini.lua
+vi
+z
+c
+z Rust/tdg/
+vi
+c
+z
+c
+z dotfiles/.config/
+vi starship.toml
+c
+vi
+c
+z nvim 
+ls
+cd lua/
+ls
+cd config/
+ls
+vi keymaps.lua
+vi
+cd ..
+cd plugins/
+touch neotree.lua
+rm -rf neotree.lua
+c
+cd ..
+z nvim/lua/plugins/
+vi
+c
+cd
+c
+z Rust/tdg/
+vi
+ze-rust 
+q
+cargo run
+c
+ze-rust 
+c
+z
+c
+irssi
+go install github.com/boyter/scc@master<\n><\n>
+scc
+go uninstall github.com/boyter/scc@master<\n><\n>
+go remove github.com/boyter/scc@master<\n><\n>
+c
+paru scc
+c
+scc 
+c
+z Rust/tdg/
+scc
+c
+cd
+c
+paru newsboat
+c
+newsboat
+paru mutt
+mutt
+c
+newsboat
+z .newsboat/
+ls
+cd ..
+ls
+z .newsboat/
+touch urls
+vi ursl
+newsboat 
+vi
+ls
+rm -rf ursl
+newsboat 
+c
+cd
+z Documents/
+ls
+touch CLI_tools_config_and_deps.md
+vi CLI_tools_config_and_deps.md
+garuda-update 
+c
+irssi
+daemon
+c
+ls 
+mkdir -p ~/.mutt/cache/headers<\n>mkdir ~/.mutt/cache/bodies<\n>touch ~/.mutt/certificates
+mkdir ~/.mutt/cache/headers<\n>mkdir ~/.mutt/cache/bodies<\n>touch ~/.mutt/certificates
+ls
+touch ~/.mutt/muttrc
+cd .mutt/
+ls
+vi muttrc
+c
+cd
+c
+newsboat 
+c
+ls
+cd .newsboat/
+ls
+vi urls
+newsboat 
+vi urls
+newsboat 
+c
+cd
+c
+z Rust/tdg/
+ze-rust 
+c
+z
+c
+cd Documents/
+vi
+c
+cd
+z dotfiles/.config/
+ya
+vi
+cd
+c
+z dotfiles/.config/
+z nvim/lua
+ls
+cd config/
+ls
+vi
+c
+cd
+c
+z Documents/
+vi
+touch cli_tools.norg
+vi cli_tools.norg
+vi
+c
+z Rust/tdg/
+ze-rust 
+c
+cd
+z dotfiles/.config/nvim/
+cd lua/plugins/
+touch codesnap.lua
+vi codesnap.lua
+c
+cd
+c
+z Rust/tdg/ | ze-rust 
+vi
+cd
+z Rust/tdg/ | ze-rust 
+c
+z Rust/tdg/ | ze-rust 
+c
+z Rust/
+ls
+cd bird/
+ls
+ze-rust 
+c
+z Rust/tdg/ | ze-rust 
+c
+cd
+c
+z dotfiles/.config/nvim/
+ls
+cd lua/plugins/
+ls
+touch neotree.lua
+vi neotree.lua
+vi
+c
+q
+z dotfiles/.config/
+vi starship.toml
+c
+z
+c
+z dotfiles/
+ls
+rm -rf a.out
+ls

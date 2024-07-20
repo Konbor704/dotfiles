@@ -3025,3 +3025,574 @@ z dotfiles/
 ls
 rm -rf a.out
 ls
+lazygit 
+z
+c
+z dotfiles/.config/foot/
+vi foot.ini
+z dotfiles/.config/foot/
+vi foot.ini
+z dotfiles/.config/foot/
+vi foot.ini
+c
+z dotfiles/.config/foot/
+vi
+z dotfiles/.config/foot/
+vi
+c
+z dotfiles/.config/foot/
+vi
+z dotfiles/.config/foot/
+vi
+z dotfiles/.config/foot/ | vi foot.ini
+cd
+z dotfiles/.config/foot/ | vi foot.ini
+man foot.ini
+vi foot.ini
+c
+cd ..
+ls
+zathura/
+cd
+zathura
+c
+paru pixelorama
+c
+paru opentoonz
+c
+z Rust/tdg/ | ze-rust 
+c
+z
+c
+atuin sync
+q
+irssi
+c
+vi
+c
+z Documents/
+ls
+vi test.md
+c
+vi
+c
+z Rust/tdg/ | ze-rust 
+c
+lazygit 
+c
+cd
+c
+z Rust/tdg/ | ze-rust
+c
+cd /
+ls
+cd home/
+ls
+cd konbor/
+ls
+irssi
+c
+z dotfiles/.config/foot/ | vi foot.ini
+cd themes/
+ls
+touch gruvbox_dark.ini
+vi
+c
+cd ..
+vi foot.ini
+c
+irssi
+c
+z dotfiles/.config/foot/ | vi foot.ini
+c
+z Rust/tdg/ | ze-rust
+c
+ze-rust 
+c
+cd
+c
+z dotfiles/.config/zellij/
+ls
+vi rust_layout.kdl
+c
+z
+z Rust/tdg/ | ze-rust
+c
+z
+c
+z dotfiles/.config/zellij/
+vi
+c
+z
+c
+z Rust/tdg/ | ze-rust
+c
+z
+c 
+z dotfiles/.config/nvim/
+ls
+cd lua
+ls
+c
+z
+c
+z Rust/tdg/ | ze-rust
+325$ to pln
+garuda-update 
+c
+garuda-update 
+sudo pacman -S o3de
+paru o3de
+c
+sudo pacman -Sc
+c
+z Rust/tdg/ | ze-rust
+c
+z
+z dotfiles/.config/nvim/
+ls
+z lua/custom/plugins/
+z lua/plugins/
+ls
+touch which_key.lua
+vi
+c
+cd ..
+vi init.lua
+ya
+c
+git clone https://github.com/LazyVim/starter ~/dotfiles/.config/nvim
+rm -rf ~/dotfiles/.config/nvim/.git
+c
+ya
+vi
+v
+cd
+v
+c
+vi
+z dotfiles/.config/nvim/lua/plugins/
+rm -rf which_key.lua
+vi
+c
+cd
+v
+c
+vi
+paru luarocks
+c
+vi
+z dotfiles/.config/nvim/lua/plugins
+vi neorg.lua
+c
+cd
+c
+sudo pacman -Syu luarocks
+c
+vi
+z dotfiles/.config/nvim/lua/plugins
+vi neorg.lua
+vi
+c
+cd
+c
+z Rust/tdg/ | ze-rust
+c
+garuda-update 
+c
+paru julia
+c
+vi
+c
+z Programming/
+mkdir python
+c
+sudo pacman -S python-pipx<\n>pipx ensurepath<\n>sudo pipx ensurepath --global 
+c
+pipx -h
+pipx install venv
+pipx install nushell
+pip install nushell
+pacman -S python-nushell
+sudo pacman -S python-nushell
+c
+pipx install virtualenv
+virtualenv dash_board
+bash
+ls
+cd python/
+ls
+source dash_board/bin/activate.nu
+fish
+c
+source dash_board/bin/activate.nu
+overlay use dash_board/bin/activate.nu
+c
+pipx install dash
+pipx install pandas
+pip install pandas
+pipx list
+c
+touch honey_yearly_report.py
+vi 
+vi
+python honey_yearly_report.py
+pip install dash
+python honey_yearly_report.py
+c
+deactivate
+c
+z
+c
+irssi
+npm install react react-dom @excalidraw/excalidraw
+npm run excalidraw
+npm run 
+c
+z Programming/python/
+overlay use dash_board/bin/activate.nu
+vi
+pip install numpy
+pip install matplotlib
+c
+vi
+c
+deactivate
+c
+z
+z dotfiles/.config/nvim/lua/plugins
+ls
+touch nvim-cmp.lua
+vi
+c
+z
+c
+z Programming/python/
+overlay use dash_board/bin/activate.nu
+vi
+deactivate
+c
+cd ..
+pip install neovim
+c
+sudo pacman -S python-neovim
+c
+vi
+garuda-update 
+vi
+c
+z Programming/
+vi
+c
+cd ..
+vi
+z
+c
+z dotfiles/.config/nvim/lua/plugins
+rm -rf nvim-cmp.lua
+vi
+c
+z
+c
+z Programming/
+vi
+paru helix
+c
+hx
+z dotfiles/.config/
+ls
+z
+c
+mv ~/.config/helix/ ~/dotfiles/.config/
+z dotfiles/
+stow .
+hx
+c
+cd .config/
+cd helix/
+ls
+touch languages.toml
+vi
+hx
+c
+z
+c
+z Rust/tdg/
+vi
+hx
+vi
+c
+z
+c
+z dotfiles/.config/nvim/
+ls
+cd lua
+ls
+cd config/
+ls
+vi autocmds.lua
+vi
+c
+z
+c
+z Rust/tdg/ | ze-rust
+c
+z
+c
+z dotfiles/.config/nvim/
+vi
+c
+z
+c
+z Rust/tdg/ | ze-rust
+c
+garuda-update 
+vi
+c
+z Programming/
+vi
+c
+z Programming/
+ls
+vi
+pacman -Ql
+c
+exa
+exa -la
+lsd
+c
+paru blesh
+c
+bash
+ls
+bash
+c
+ls
+c
+pacman -Qi
+c
+pacman -Qk
+c
+pacman -Qi
+c
+pacman -Qii
+c
+pacman -Si
+c
+pacman -Qs
+c
+cd
+c
+z Rust/
+ls
+cargo new msg
+cd msg
+cd
+rustup update
+c
+paru cava
+c
+cava
+c
+z Rust/
+ls
+cd msg/
+vi
+c
+garuda-update 
+d
+c
+z Rust/
+c
+z
+c
+vi
+z Rust/
+ls
+cd msg
+ls
+c
+flatpak install flathub io.github.hmlendea.geforcenow-electron
+c
+flatpak run -h
+flatpak -h
+flatpak list
+flatpak run io.github.hmlendea.geforcenow-electron
+c
+paru edge
+c
+flatpak uninstall flathub io.github.hmlendea.geforcenow-electron
+garuda-update 
+c
+vi
+c
+flatpak install flathub org.prismlauncher.PrismLauncher
+c
+z Rust/
+ls
+cd tdg/
+vi
+ze-rust 
+z Rust/
+cargo new file_encryptor
+cd file_encryptor/
+cargo add aes
+c
+vi
+c
+ls
+touch text.txt
+touch text_bk.txt
+vi
+c
+z Rust/
+ls
+cd file_encryptor/
+ls
+vi
+cargo add age
+c
+ze-rust 
+vi
+ze-rust 
+c
+garuda-update 
+c
+z Rust/d
+z Rust/
+ls
+cd file_encryptor/
+ls
+vi
+c
+vi
+c
+cd
+c
+garuda-update 
+c
+vi
+c
+vi
+paru ocaml
+paru opam
+c
+opam init
+c
+opam
+c
+eval $(opam env)
+c
+v
+c
+paru -R opam
+c
+vi
+c
+z Rust/
+ls
+cd calc
+ls
+cd ..
+ls
+cargo new todo_list
+cd todo_list/
+cargo add tui crossterm
+c
+vi
+c
+cargo run
+ze-rust 
+cargo run
+z Programming/
+ls
+c
+z
+c
+z Rust/
+ls
+cd calc/ | ze-rust
+cd ..
+cd todo_list/
+vi
+cargo run
+cargo add ratatui
+c
+vi
+cargo run
+c
+ze-rust 
+c
+z Rust/
+ls
+cd todo_list/ | ze-rust 
+c
+z dotfiles/.config/nvim/
+cd lua/plugins/
+touch flow.lua
+vi
+z dotfiles/.config/
+ls
+cd alacritty/
+ls
+vi alacritty.toml
+vi
+v
+c
+vi
+c
+ls
+touch flow.toml
+vi flow.toml
+vi
+ls
+c
+ls
+cd ..
+vi starship.toml
+c
+cd
+c
+ls
+c
+cd dotfiles/
+cd
+z Rust/
+cd calc/ | ze-rust
+cd
+z
+z dotfiles/.config/
+z nvim/lua
+cd plugins/
+ls
+vi
+touch last_color.lua
+c
+vi
+c
+z 
+z Rust/msg/
+vi
+c
+cd
+c
+z dotfiles/.config/nvim/lua/plugins
+vi
+c
+z dotfiles/.config/alacritty/
+z
+z dotfiles/.config/alacritty/
+ls
+vi alacritty.toml
+c
+cd 
+c
+z dotfiles/.config/starship.toml
+z dotfiles/.config/
+vi starship.toml
+c
+z Rust/msg/
+c
+z
+c
+z dotfiles/

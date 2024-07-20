@@ -1,5 +1,4 @@
 layout {
-
   pane edit="src/main.rs"
   floating_panes {
     cargo {
@@ -11,9 +10,9 @@ layout {
     }
   }
 
-  pane size=1 borderless=true {
-    plugin location="zellij:compact-bar"
-  }
+  // pane size=1 borderless=true {
+  //   plugin location="zellij:compact-bar"
+  // }
 
   pane_template name="cargo"{
     command "cargo"

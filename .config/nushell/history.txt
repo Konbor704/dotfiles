@@ -3596,3 +3596,145 @@ c
 z
 c
 z dotfiles/
+lazygit 
+c
+cd
+c
+z Rust/
+ls
+cd tdg/
+ls
+ze-rust 
+c
+v
+z
+v
+c
+z dotfiles/.config/nvim/
+vi
+c
+yay -S rose-pine-cursor
+paru -S rose-pine-cursor
+c
+z dotfiles/.config/alacritty/
+ls
+touch rose_pine.toml
+vi
+v
+cd ..
+cd nvim/lua/plugins/
+ls
+rm -rf flow.lua
+c
+ls
+vi
+cd ..
+ls
+cd ..
+ya
+vi
+paru betterdiscord
+c
+cd
+cd Downloads/
+ls
+touch rose-pine.theme.css
+vi rose-pine.theme.css
+c
+z dotfiles/.config/zellij/
+ls
+mkdir themes
+cd themes/
+ls
+touch rose-pine.kdl
+vi rose-pine.kdl
+c
+cd ..
+ls
+vi
+ze
+c
+cd
+c
+z Rust/
+ls
+cd todo_list/
+ls
+vi
+c
+z Rust/
+ls
+z todo_list/
+ls
+vi
+c
+z
+c
+z dotfiles/.config/
+ls
+vi
+paru firefox
+c
+paru chrome
+paru google-chrome
+c
+z dotfiles/.config/
+cd alacritty/
+vi
+z dotfiles/.config/alacritty/
+vi
+z dotfiles/.config/alacritty/
+vi
+z Rust/
+ls
+z todo_list/
+c
+ls
+vi
+ze-rust 
+c
+e\
+z Rust/
+ls
+z bird
+ls
+vi
+ze-rust 
+ls
+exa
+exa -la
+c
+z Rust/
+ls
+z bird
+ls
+vi
+c
+z
+c
+z Programming/
+ls
+cd Zig/
+ls
+zig -v
+zig version
+sudo pacman -R zig
+paru -R zig
+paru zig
+c
+ls
+vi
+mkdir to_do
+cd to_do/
+ls
+zig init
+ls
+vi
+c
+cd ..
+ls
+cd 
+z dotfiles/.config/
+vi starship.toml
+c
+cd ..

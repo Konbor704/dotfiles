@@ -14,3 +14,6 @@ eval "$(starship init bash)"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
+
+# Created by `pipx` on 2024-07-15 13:40:50
+export PATH="$PATH:/home/konbor/.local/bin"

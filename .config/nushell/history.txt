@@ -3738,3 +3738,352 @@ z dotfiles/.config/
 vi starship.toml
 c
 cd ..
+lazygit 
+c
+cd
+c
+z Programming/
+ls
+z
+z Rust/
+ls
+cargo new chip8
+cd chip8/
+ls
+vi
+cargo run
+RUST_BACKTRACE=1 cargo run
+c
+vi
+cd ..
+c
+ls
+cd todo_list/
+ls
+vi
+c
+bat Cargo.toml
+vi
+c
+q
+paru buku
+c
+buku
+c
+buki --lock
+buku --lock
+buki -a https://zegarkiipiora.com/ zegarki,pióra,kaligrafia -c Polska strona która o piórach i zegarkach
+buku -a https://zegarkiipiora.com/ zegarki,pióra,kaligrafia -c Polska strona która o piórach i zegarkach
+buku --unlock
+buku -a https://zegarkiipiora.com/ zegarki,pióra,kaligrafia -c Polska strona która o piórach i zegarkach
+buki --list
+buku --list
+buku -h
+buku -l
+buku -u
+buku -ul
+buku --unlock
+buku
+c
+buku -a https://www.tlbranson.com/warhammer-40k-books-in-order/ warhammer,fantasy,book,scify -c Read order for warhammer 40k
+buku
+c
+ls
+c
+ls | where type = dir
+ls | type = dir
+ls | where type = dir
+ls | where type = "dir"
+ya
+c
+ya
+c
+cd
+c
+z Rust/
+ls
+cargo new book_marks
+c
+cd book_marks/
+cargo add serde clap sqlite colored 
+c
+vi
+z Rust/
+z book_marks/
+ls
+vi
+garuda-update 
+c
+vi
+z Rust/book_marks/
+ls
+cargo build && cargo install
+cargo build and cargo install
+cargo build ; cargo install
+cargo build ; cargo install --path
+c
+vi
+c
+z
+c
+cargo install kanata
+c
+z dotfiles/.config/
+ls
+mkdir kanata
+cd kanata
+ls
+touch config.kbd
+vi 
+vi
+c
+cd ..
+ls
+cd ..
+stow .
+c
+z 
+z .config/
+ls
+c
+cd
+sudo ~/.cargo/bin/kanata -c config.kdb
+cd
+cd dotfiles/
+ls
+cd .config/
+ls
+cd kanata/
+ls
+bat config.kbd
+cd
+cd .config/
+ls
+cd kanata/
+ls
+cd
+c
+sudo ~/.cargo/bin/kanata -c ~/dotfiles/.config/kanata/config.kdb
+cd .config/systemd/user/
+ls
+touch kanata.service
+vi kanata.service
+systemctl --user daemon-reload
+systemctl --user enable kanata.service
+systemctl --user start kanata.service
+systemctl --user status kanata.service
+cd
+c
+z dotfiles/.config/kanata
+ls
+vi 
+systemctl --user status kanata.service
+cd ..
+mv kanata ~/.config/
+z
+cd .config/
+ls
+unlink kanata
+mv ~/dotfiles/.config/kanata ~/.config/
+systemctl --user status kanata.service
+c
+ls
+cd kanata/
+ls
+mv config.kbd caps2esc.kdb
+systemctl --user status kanata.service
+cargo uninstall kanata
+paru kanata
+systemctl --user status kanata.service
+sudo ~/.cargo/bin/kanata -c ~/dotfiles/.config/kanata/config.kdb
+paru -R kanata-bin
+cargo install kanata
+c
+sudo kanata --cfg ~/.config/kanata/caps2esc.kdb
+cargo uninstall kanata
+paru -S kanata-bin
+sudo kanata --cfg ~/.config/kanata/caps2esc.kdb
+c
+systemctl --user status kanata.service
+systemctl --user daemon-reload<\n>systemctl --user enable kanata.service<\n>systemctl --user start kanata.service<\n>systemctl --user status kanata.service
+c
+kanata
+sudo kanata --cfg ~/.config/kanata/caps2esc.kdb
+kanata --cfg ~/.config/kanata/caps2esc.kdb
+z dotfiles/
+ls
+vi kanata_start.sh
+z 
+z Programming/
+ls
+bat script.sh
+z 
+z dotfiles/
+vi kanata_start.sh
+kanata --cfg ~/.config/kanata/caps2esc.kdb
+c
+z dotfiles/
+vi kanata_start.sh
+cd 
+z .config/
+mv kanata ~/dotfiles/.config/
+cd
+z dotfiles/
+ls
+stow .
+c
+vi
+c
+z Programming/
+vi
+z dotfiles/
+ls
+vi kanata/caps2esc.kdb
+vi
+ls
+c
+z
+c
+ls
+c
+z Rust/book_marks/
+ls
+vi
+poweroff
+garuda-update 
+c
+flatpak install flathub org.wezfurlong.wezterm
+c
+theme
+c
+z dotfiles/
+ls
+touch .wezterm.lua
+vi .wezterm.lua
+z dotfiles/
+vi .wezterm.lua
+z dotfiles/ | vi .wezterm.lua
+c
+stow .
+z dotfiles/ | vi .wezterm.lua
+vi .wezterm.lua
+z dotfiles/ | vi .wezterm.lua
+vi .wezterm.lua\
+vi .wezterm.lua
+c
+vi .wezterm.lua
+paru nerd-fonts
+paru open-dyslexic
+c
+vi .wezterm.lua
+paru hack-nerdfont
+paru hack-nerd
+c
+vi .wezterm.lua
+c
+wezterm ls-fonts --list-system
+wezterm ls-fonts --list-system
+c
+z .config/
+ls
+z nushell/
+ls
+vi
+wezterm ls-fonts --list-system
+vi
+c
+wezterm ls-fonts --list-system
+z dotfiles/.config/nushell/
+cd dotfiles/.config/nushell/
+ls
+vi config.nu
+e
+exit
+wezterm ls-fonts --list-system
+c
+z dotfiles/ | vi .wezterm.lua
+c
+z dotfiles/ | vi .wezterm.lua
+vi .wezterm.lua
+z dotfiles/ | vi .wezterm.lua
+c
+z
+c
+z
+c
+z dotfiles/ | vi .wezterm.lua
+c
+z dotfiles/ | vi .wezterm.lua
+c
+z Rust/book_marks/ | ze-rust
+c
+cd ..
+ls
+cd book_marks/
+ls
+c
+ls
+vi
+c
+z
+c
+z dotfiles/.config/nvim/
+ls
+vi
+c
+z
+z Rust/book_marks/ | ze-rust
+c
+ze-rust 
+c
+cargo run --help
+cargo build
+c
+cargo build
+./book_marks
+c
+z Rust/book_marks/ | ze-rust
+c
+z dotfiles/.config/zellij/
+ls
+c
+z
+c
+z dotfiles/.config/zellij/
+ls
+vi rust_layout.kdl
+z 
+book_marks --help
+cargo bulid
+cargo build
+booku --help
+cargo run | booku --help
+cargo run 
+booku --help
+z Rust/book_marks/ | ze-rust
+c
+z
+c
+z Programming/
+ls
+c
+garuda-update 
+c
+pc
+ps
+ps | sort-by ram
+ps | sort-by cpu
+ps | sort-by mem
+c
+ssh-keygen
+cd .ssh/
+ls
+bat id_ed25519.pub
+vi 
+c
+z
+z dotfiles/
+ls
+vo .wezterm.lua
+vi .wezterm.lua
+c

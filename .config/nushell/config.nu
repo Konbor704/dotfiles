@@ -906,3 +906,4 @@ alias e = exit
 alias vi = nvim
 alias ls = ls -a
 alias ze-rust = zellij --layout ~/dotfiles/.config/zellij/rust_layout.kdl
+alias wezterm = flatpak run org.wezfurlong.wezterm

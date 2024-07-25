@@ -5,8 +5,8 @@ layout {
       args "run"
       x -2 
       y "0%"
-      width "35%"
-      height "50%"
+      width "45%"
+      height "55%"
     }
   }
 
